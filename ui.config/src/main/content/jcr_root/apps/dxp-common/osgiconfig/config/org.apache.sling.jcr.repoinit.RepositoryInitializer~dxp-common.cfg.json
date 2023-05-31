@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/dxp-common",
+        "create path (nt:unstructured) /content/dam/dxp-common/jcr:content",
+        "set properties on /content/dam/dxp-common/jcr:content\n  set cq:conf{String} to /conf/dxp-common\n  set jcr:title{String} to \"DXP Common\"\nend"
+    ]
+}
